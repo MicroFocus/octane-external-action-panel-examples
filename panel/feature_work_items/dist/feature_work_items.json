@@ -1,0 +1,22 @@
+[
+    {
+      "name": "feature_work_items",
+      "title": "Work Items",
+      "entity_type": [
+        "feature"
+      ],
+      "views": [
+        "list"
+      ],
+      "icon": "f-list",
+      "url": "{bundle_url}/feature_work_items/work_items.html?shared_space={shared_space}&workspace={workspace}&octane_url={octane_url}#entity_ids={entity_ids}",
+      "mode": {
+        "name": "side_panel",
+        "modules": [
+          "backlog",
+          "team_backlog"
+        ]
+      },
+      "single_entity": false
+    }
+  ]
